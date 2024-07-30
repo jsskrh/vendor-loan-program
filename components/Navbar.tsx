@@ -17,6 +17,7 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { buttonVariants } from "./ui/button";
+import Image from "next/image";
 // import { LogoIcon } from "./Icons";
 
 interface RouteProps {
@@ -53,8 +54,15 @@ const Navbar = () => {
             <a
               rel="noreferrer noopener"
               href="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 font-bold text-xl flex items-center gap-2"
             >
+              <Image
+                src={"/img/trade-logo.png"}
+                height={0}
+                width={0}
+                className="size-6"
+                alt="logo"
+              />
               Vendor Loan Program
             </a>
           </NavigationMenuItem>
