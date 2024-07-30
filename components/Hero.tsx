@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-[rgb(143,193,130)]  to-[rgb(60,100,48)] text-transparent bg-clip-text">
               Tradeplus
             </span>{" "}
             vendor
