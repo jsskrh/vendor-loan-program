@@ -14,11 +14,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <HowItWorks />
+      {/* <HowItWorks />
       <FAQ />
       <Contact />
       <ScrollToTop />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
