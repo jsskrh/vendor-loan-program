@@ -36,7 +36,7 @@ const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Get Started</Button>
+          <Button className="w-full">Apply for a Loan</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
@@ -47,10 +47,6 @@ const HeroCards = () => {
               "Maximum of 3 months",
               "Interest Rate: 3.5% per month",
               "Purpose: Working Capital Financing",
-              "Facility Fee: 2%",
-              "Advisory Fee: 0.5%",
-              "Legal Fee: 0.5%",
-              "VAT: 7.5% (on charged fees)",
               "Collateral: Inventory Pledge & Personal Guarantee",
               "Repayment Source: Proceeds from sale of goods",
             ].map((benefit: string) => (
