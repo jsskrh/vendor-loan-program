@@ -10,27 +10,37 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+    title: "Check Eligibility",
+    description: "Ensure you meet all the eligibility criteria listed above.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Gather Documentation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Prepare the necessary documents including : Passport photographs, valid means of ID, recent bank statements, Certificate of incorporation, utility bill",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+    title: "Fill Out the Application Form",
+    description: "Complete the loan application form here",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Schedule Verification",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Submit your preferred date and time for the physical verification of your business address and inventory.",
+  },
+  {
+    icon: <PlaneIcon />,
+    title: "Submit Application",
+    description:
+      "Review and submit your completed application form along with the required documents.",
+  },
+  {
+    icon: <GiftIcon />,
+    title: "Await Review",
+    description:
+      "Your application will be reviewed, and you will be notified of the outcome.",
   },
 ];
 
@@ -45,13 +55,15 @@ const HowItWorks = () => {
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Here is a step by step guide to apply for the loan:
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {features.map(({ icon, title, description }: FeatureProps) => (
-          <Card key={title} className="bg-muted/50">
+        {features.map(({ icon, title, description }: FeatureProps, index) => (
+          <Card
+            key={title}
+            className={`bg-muted/50 ${index === 4 ? "md:col-start-2" : ""}`}
+          >
             <CardHeader>
               <CardTitle className="grid gap-4 place-items-center">
                 {icon}
