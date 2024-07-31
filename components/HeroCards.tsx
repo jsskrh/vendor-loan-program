@@ -20,7 +20,7 @@ const HeroCards = () => {
       <Card className="absolute top-[-15px] left-[50px] w-[40rem]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Overdraft
+            Time
             <Badge variant="secondary" className="text-sm text-primary">
               Loan details
             </Badge>
@@ -48,7 +48,7 @@ const HeroCards = () => {
               "Interest Rate: 3.5% per month",
               "Purpose: Working Capital Financing",
               "Collateral: Inventory Pledge & Personal Guarantee",
-              "Repayment Source: Proceeds from sale of goods",
+              "Repayment Source: Proceeds from sale of goods and other sources",
             ].map((benefit: string) => (
               <span key={benefit} className="flex">
                 <Check className="text-green-500" />{" "}
