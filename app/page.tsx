@@ -20,7 +20,7 @@ export default function Home() {
       <AboutTradeplus />
       {/* <Contact /> */}
       {/* <ScrollToTop /> */}
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
