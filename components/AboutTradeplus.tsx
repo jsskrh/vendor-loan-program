@@ -1,37 +1,34 @@
+import Image from "next/image";
+
 const AboutTradeplus = () => {
   return (
     <section id="about" className="container md:px-40 py-24 sm:py-32">
       <div className="bg-muted/50 border rounded-lg py-12">
-        <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+        <div className="px-6 flex flex-col-reverse md:flex-row md:items-center gap-8 md:gap-12">
+          <Image
+            src={`/img/trade-logo.png`}
+            height={0}
+            width={300}
+            alt="tradeplus logo"
+            className="size-20"
+          />
           <div className="bg-green-0 flex flex-col justify-between">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                The Program
+                Tradeplus
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                This program is designed to support our valued vendors by
-                offering financial assistance to grow their businesses. Eligible
-                vendors can receive up to 70% of their total inventory value,
-                capped at ₦1,000,000, repayable over 3 calendar months. This
-                loan program aims to provide the necessary capital to expand
-                inventory, manage cash flow, and enhance business operations.
+                Tradeplus NG is an e-commerce marketplace that allows financial
+                institutions to provide inventory finance and verify physical
+                inventory of their clients. Vendors on Tradeplus NG can sell
+                products in bulk at wholesale prices, offering consumers lower
+                prices than retail. The platform features a split functionality
+                with a timed reversal mechanism for failed/incomplete
+                transactions. Please include this brief intro to Tradeplus
               </p>
-              <p className="text-xl text-muted-foreground mt-4">
-                To qualify for the Vendor Loan Program, applicants must:
-              </p>
-              <ul className="text-xl text-muted-foreground mt-4 list-disc">
-                <li>Have an active Tradeplus account.</li>
-                <li>Open an account with Sage Grey Finance Limited.</li>
-                <li>
-                  Be available for physical verification of inventory for the
-                  duration of the loan
-                </li>
-                <li>Provide accurate and verifiable inventory value.</li>
-                <li>Meet any additional criteria specified by Tradeplus.</li>
-              </ul>
             </div>
           </div>
         </div>

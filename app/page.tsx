@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import AboutTradeplus from "@/components/AboutTradeplus";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <HowItWorks />
       <FAQ />
+      <AboutTradeplus />
       {/* <Contact /> */}
       {/* <ScrollToTop /> */}
       {/* <Footer /> */}
