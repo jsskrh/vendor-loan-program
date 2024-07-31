@@ -27,7 +27,9 @@ const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Apply for a Loan</Button>
+          <a href="https://vendor-loan-scheme.vercel.app/bank/individual">
+            <Button className="w-full md:w-1/3">Apply for a Loan</Button>
+          </a>
         </div>
       </div>
 

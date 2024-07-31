@@ -36,7 +36,9 @@ const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Apply for a Loan</Button>
+          <a href="https://vendor-loan-scheme.vercel.app/bank/individual">
+            <Button className="w-full">Apply for a Loan</Button>
+          </a>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
