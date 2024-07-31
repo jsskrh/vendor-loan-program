@@ -22,6 +22,12 @@ const Footer = () => {
           </a>
         </div>
 
+        <div className="col-span-2">
+          <p>Customer Service Contact:</p>
+          <p>Email Addresses: vendorloanscheme@sage-grey.com</p>
+          <p>Office Hours: Weekdays 9am-5pm</p>
+        </div>
+
         {/* <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Follow US</h3>
           <div>
