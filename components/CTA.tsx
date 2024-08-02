@@ -14,7 +14,9 @@ const CTA = () => {
             vendor
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            Become a tradeplus vendor in a few very simple steps.
+            Become a TradePlus Vendor Today in Just a Few Simple and
+            Straightforward Steps! Start your journey with us and unlock new
+            opportunities for your business.
           </p>
         </div>
 
