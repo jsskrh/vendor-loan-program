@@ -17,9 +17,9 @@ export default function Home() {
       <Hero />
       <About />
       <HowItWorks />
-      <FAQ />
       <AboutTradeplus />
       <CTA />
+      <FAQ />
       {/* <Contact /> */}
       {/* <ScrollToTop /> */}
       <Footer />
