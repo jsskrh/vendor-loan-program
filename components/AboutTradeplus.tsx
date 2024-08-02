@@ -27,7 +27,7 @@ const AboutTradeplus = () => {
                 products in bulk at wholesale prices, offering consumers lower
                 prices than retail. The platform features a split functionality
                 with a timed reversal mechanism for failed/incomplete
-                transactions. Please include this brief intro to Tradeplus
+                transactions.
               </p>
             </div>
           </div>

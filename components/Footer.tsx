@@ -162,7 +162,7 @@ const Footer = () => {
       </section>
 
       <section className="container pb-14 text-center">
-        <h3>&copy; 2024 Sage Grey Tech</h3>
+        <h3>&copy; 2024 Sage Grey Finance Limited</h3>
       </section>
     </footer>
   );
