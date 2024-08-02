@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import AboutTradeplus from "@/components/AboutTradeplus";
 import Contact from "@/components/Contact";
+import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <HowItWorks />
       <FAQ />
       <AboutTradeplus />
+      <CTA />
       {/* <Contact /> */}
       {/* <ScrollToTop /> */}
       <Footer />
