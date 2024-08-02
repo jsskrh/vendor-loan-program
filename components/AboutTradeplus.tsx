@@ -15,10 +15,10 @@ const AboutTradeplus = () => {
           <div className="bg-green-0 flex flex-col justify-between">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
+                About{" "}
+                <span className="bg-gradient-to-r from-[rgb(143,193,130)]  to-[rgb(60,100,48)] text-transparent bg-clip-text">
+                  Tradeplus
                 </span>
-                Tradeplus
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 Tradeplus NG is an e-commerce marketplace that allows financial
